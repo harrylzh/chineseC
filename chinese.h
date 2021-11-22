@@ -35,6 +35,7 @@
 #define  如果 if
 #define  否则 else
 #define  循环 for
+#define  无限循环 for(;;)
 #define  循环正序次数i(c) for(int 当前次数i = 1; 当前次数i  <= c ; 当前次数i++)
 #define  循环正序次数j(c) for(int 当前次数j = 1; 当前次数j  <= c ; 当前次数j++)
 #define  循环正序次数k(c) for(int 当前次数k = 1; 当前次数k  <= c ; 当前次数k++)
