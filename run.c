@@ -1,4 +1,4 @@
-#define 中文库 "chinese.h"
+#define 中文库 "chineseC.h"
 
 
 #include 中文库
@@ -68,5 +68,8 @@
         屏幕输出字符串函数("红色");
     }
 
-    返回 正常退出;
+    srand((unsigned) time(NULL));
+    int rNum = rand();
+
+    返回 0;
 结束
