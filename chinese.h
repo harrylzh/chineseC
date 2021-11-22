@@ -64,14 +64,14 @@
 
 
 
-#define  输出 printf
-#define  输出整数(c) printf("%d", c)
-#define  输出字符串(c) printf("%s", c)
-#define  输出字符(c) printf("%c", c)
-#define  输出空格 printf("%c",' ')
+// #define  屏幕输出 printf
+#define  屏幕输出整数函数(c) printf("%d", c)
+#define  屏幕输出字符串函数(c) printf("%s", c)
+#define  屏幕输出字符函数(c) printf("%c", c)
+#define  空格 printf("%c",' ')
 #define  换行 printf("\n")
-#define  输入整数(c)   scanf("%d", &c)
-#define  输入字符   getchar()
+#define  屏幕输入整数函数(c)   scanf("%d", &c)
+#define  屏幕输入字符函数   getchar()
 
 
 #define  正常退出 0
