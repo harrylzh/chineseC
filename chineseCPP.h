@@ -36,7 +36,7 @@
 #define  整数数组(c,l) int (c)[(l)] 
 #define  数组项(c,l) (c)[(l)-1]
 #define  枚举 enum 
-#define  正数 unsigned 
+#define  正 unsigned 
 
 
 
@@ -71,7 +71,9 @@
 
 
 
-
+#define 与 &&
+#define 或 ||
+#define 非 !
 
 
 // #define  屏幕输出 printf
@@ -84,11 +86,13 @@
 // #define  屏幕输入字符函数   getchar()
 #define  屏幕输出 cout
 #define  屏幕输入 cin
-#define  换行 cout<<endl;
+#define  换行 endl
+#define  空一行 cout<<endl
 #define  空格 ' '
 #define  随机数初始化函数 srand
 #define  随机数函数 rand
 #define  时间函数 time
+#define  获取一行输入函数 getline
 
 
 
